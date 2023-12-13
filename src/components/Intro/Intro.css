@@ -1,0 +1,126 @@
+#Intro{
+    height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 90vh;
+}
+.IntroContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: yellow;
+}
+.intropara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.Button{
+    display: flex;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    
+}
+/* .btn-resume{
+    background-color: white;
+    margin: 0.9rem 0;
+    padding: 0.4rem 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    gap: 8px;
+    
+} */
+
+.btn-resume {
+    /* Other button styles */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; /* Example background color */
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .btn-resume:hover {
+    box-shadow: 4px 4px 8px rgba(151, 14, 2, 0.5); /* Shadow on hover (optional) */
+  }
+ 
+
+
+
+
+
+
+
+/*
+ .btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    
+ } 
+
+  .btn {
+    
+    display: flex;
+    width: 100px; 
+    height: 40px; 
+    text-align: center;
+    line-height: 40px; 
+    margin: 0 auto; 
+  } 
+/*
+
+/* .btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+} */
+
+
+
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+    }
+    .IntroContent{
+        font-size: 10vw;
+    }
+    .Hello{
+        font-size: 4.5vw;
+    }
+}
+@media screen and (max-width:480px) {
+    .bg{
+        right: -20vw;
+    }
+   
+}
